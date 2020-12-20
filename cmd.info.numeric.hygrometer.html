@@ -3,7 +3,7 @@
   <!-- Info Widget
         Widget de           : JAG
         Widget pour le Core : V4
-        Mise à jour         : JAG 20200920 => Prise en compte image widget
+        Mise à jour         : JAG 20201220 => Update suite changement localisation image
 	-->
   <!--
       Jeedom Compatibility: v4
@@ -104,7 +104,7 @@
       var imgTopMargin = 15;
 
       cmd.find('#hygro#id#').empty().append(
-        '<img class="hygroImg" src="data/customTemplates/dashboard/cmd.action.other.Multi-action-Defaut/humidite/hu_hygrometer' +
+        '<img class="hygroImg" src="data/img/humidite/hu_hygrometer' +
         imgNumber + '.png"></img>');
       cmd.find('.hygroImg').css('cssText', 'width:' + largeurPx + ' !important;margin-top: ' + imgTopMargin + 'px;');
 
